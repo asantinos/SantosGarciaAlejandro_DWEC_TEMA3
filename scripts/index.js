@@ -1,7 +1,7 @@
 const canvas = document.querySelector('canvas');
 const ctx = canvas.getContext('2d');
 
-// Para el width sería innerWidth, no innerHeight
+// CAMBIO 2: Para el width sería innerWidth, no innerHeight
 const width = canvas.width = window.innerWidth;
 const height = canvas.height = window.innerHeight;
 
@@ -71,7 +71,8 @@ while (balls.length < 4) {
 }
 
 function loop() {
-    ctx.fillStyle = 'rgba(0, 245, 0, 0.25)';
+    // CAMBIO 3: El color de fondo tiene que ser negro, no verde
+    ctx.fillStyle = 'rgba(0, 0, 0, 0.25)';
     ctx.fillRect(0, 0, width, height);
 
     for (const ball of balls) {
