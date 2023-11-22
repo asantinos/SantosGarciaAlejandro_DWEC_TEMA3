@@ -7,7 +7,7 @@ import { loop } from "./canvas-setup.js";
 // Creamos arary donde se guardarán las bolas
 export const balls = [];
 
-// Metemos bolas al array
+// Metemos bolas al array, en este caso 4
 while (balls.length < 4) {
     const size = random(10, 20);
     const ball = new Ball(

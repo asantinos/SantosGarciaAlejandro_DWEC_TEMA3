@@ -1,19 +1,24 @@
 * {
+    /* Para resetar estilos por defecto y evitar márgenes no deseados */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 body {
+    /* Para evitar que genere scrolls */
     overflow: hidden;
     height: inherit;
 }
 
 h1 {
+    /* Para posicionar el texto por encima del canvas y centrarlo respecto al ancho de la pantalla */
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+    /* Color transparente y text-shadow para que aparezca un poco difuminado */
     color: transparent;
     text-shadow: 0 0 3px rgba(255, 255, 255, 0.8);
+    /* Centramos para que en caso de que el texto pase a estar en dos líneas, siga centrado */
     text-align: center;
 }
