@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: transparent;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+}
