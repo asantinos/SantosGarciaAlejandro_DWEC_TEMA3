@@ -1,3 +1,9 @@
+/**
+ * Autor: Alejandro Santos García
+ * 
+ * Repositorio Github: https://github.com/asantinos/SantosGarciaAlejandro_DWEC_TEMA3.git
+ */
+
 import { Ball } from "./ball-class.js";
 import { width } from "./canvas-setup.js";
 import { height } from "./canvas-setup.js";
