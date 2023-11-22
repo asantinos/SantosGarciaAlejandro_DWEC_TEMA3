@@ -1,7 +1,8 @@
 const canvas = document.querySelector('canvas');
 const ctx = canvas.getContext('2d');
 
-const width = canvas.width = window.innerHeight;
+// Para el width sería innerWidth, no innerHeight
+const width = canvas.width = window.innerWidth;
 const height = canvas.height = window.innerHeight;
 
 function random(min, max) {
@@ -25,7 +26,7 @@ class Ball {
     draw() {
         ctx.beginPath();
         ctx.fillStyle = this.color;
-        // Math.PI no lleva paréntesis
+        // CAMBIO 1: Math.PI no lleva paréntesis
         ctx.arc(this.x, this.y, this.size, 0, 2 * Math.PI);
         ctx.fill();
     }
