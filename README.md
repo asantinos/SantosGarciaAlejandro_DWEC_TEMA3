@@ -3,7 +3,7 @@
 ## Caos de Colisiones Cromáticas
 
 **Autor**: Alejandro Santos García
-**Repositorio Github**: 
+**Repositorio Github**: https://github.com/asantinos/SantosGarciaAlejandro_DWEC_TEMA3.git
 
 * Scripts:
     1. index.js
